@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by Erik on 3/3/2018.
  */
 @Controller
-public class indexController {
+public class IndexController {
 
     private final RecipeService recipeService;
 
-    public indexController(RecipeService recipeService) {
+    public IndexController(RecipeService recipeService) {
         this.recipeService = recipeService;
     }
 
